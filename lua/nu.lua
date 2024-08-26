@@ -3,7 +3,7 @@ local M = {}
 
 local function defaultConfig()
     return {
-        use_lsp_features = true,
+        use_lsp_features = false,
         all_cmd_names = [[nu -c 'help commands | get name | str join "\n"']]
     }
 end
